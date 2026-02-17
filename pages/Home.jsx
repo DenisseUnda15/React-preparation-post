@@ -14,8 +14,7 @@ const Home = () => {
 
     useEffect(() => {
         getUsers();
-        navigate();
-    }, []);
+        }, []);
 
   return (
     <div className="container">

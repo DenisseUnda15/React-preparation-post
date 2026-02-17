@@ -32,7 +32,7 @@ const Posts = () => {
   return (
     <>
     <div className="post__search">
-        <button onClick={navigate('/')}>← Back</button>
+        <button onClick={() => navigate('/')}>← Back</button>
         
     <div className="post__search--container">
       <label className="post__search--label">Search by Id</label>
